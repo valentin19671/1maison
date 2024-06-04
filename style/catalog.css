@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    @font-face {
+        font-family: Jost; 
+        src: url('../fonts/Jost.ttf'); 
+    }
+    
+    @font-face {
+        font-family: Vetrino; 
+        src: url('../fonts/ofont_Vetrino.ttf'); 
+    }
+    
+    
+    
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #F6F4F3;
+      /*  background-color: rgba(238, 238, 238, 1);*/
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    .catalog-container{
+        padding-top: 200px;
+        background-color: #F6F4F3;
+        width: 90%;  
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog-main-p{
+        position: relative;
+    display: block;
+    width: 100%;
+    color: #8A6D57;
+    text-align: center;
+    font-family: Vetrino;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    }
+
+    .catalog-categories{
+        position: relative;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .catalog-categories p{
+        text-decoration: none;
+        color: #313131;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    }
+
+
+    .catalog-grid{
+        display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 100px;
+margin-bottom: 100px;
+    }
+
+    .wishlist-grid{
+        display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 100px;
+margin-bottom: 100px;
+margin-top: 50px;
+    }
+
+    .catalog-flex1{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+
+    .catalog-flex2{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        margin-top: 130px;
+    }
+
+    .catalog-flex3{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        margin-top: 130px;
+    }
+
+    .catalog-flex4{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        margin-top: 130px;
+        margin-bottom: 150px;
+    }
+
+    .catalog-card p{
+            padding-top: 15px;
+            color: #313131;
+            font-family: Jost;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+    }
+
+    .catalog-card{
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .catalog-card-background{
+        width: 100%;
+        aspect-ratio: 69/100;
+        background-color: #EEEAE7;
+        position: relative;
+    }
+    
+    .catalog-card-background img{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .hide{
+        display: none;
+        transition: all 0.3s linear;
+    }
+
+    .border-categories{
+        border-bottom: 2px solid black !important;
+        transition: all 0.3s linear;
+    }
+
+
+    .wishlist-card {
+        width: 100%;
+        aspect-ratio: 69 / 100;
+        position: relative;
+    }
+
+    .wishlist-a{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .wishlist-img{
+        width: 100%;
+    }
+
+    .wishlist-p{
+        padding-top: 15px;
+    color: #313131;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    }
+
+    .wish-delete{
+        font-weight: 300;
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 20;
+        cursor: pointer;
+    }

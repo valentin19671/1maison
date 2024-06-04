@@ -1,0 +1,316 @@
+@font-face {
+    font-family: Jost; 
+    src: url('../fonts/Jost.ttf'); 
+}
+
+@font-face {
+    font-family: Vetrino; 
+    src: url('../fonts/ofont_Vetrino.ttf'); 
+}
+
+
+
+.o-brende-first-block{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+.o-brende-first-block img{
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+#evalogo{
+    margin-bottom: 50px;
+    padding-left: 2px;
+}
+
+
+.o-brende-first-block svg{
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0px;
+    z-index: 99;
+    animation: svgMove 100s linear infinite;   
+}
+
+.o-brende{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    background-color: #F6F4F3;
+}
+
+.o-brende-second-block{
+    margin-top: 200px;
+    width: 100%;
+    position: relative;
+    height: fit-content;
+}
+
+.o-brende-second-block-title{
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    font-size: 80px;
+    font-family: Vetrino;
+    letter-spacing: 4%;
+    color: #8A6D57;
+    text-transform: uppercase;
+}
+
+.o-brende-second-block-flex{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.o-brende-second-block-flex-inner{
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 1400px;
+}
+
+
+
+.o-brende-second-block1{
+    position: relative;
+    width: 600px;
+}
+
+.o-brende-second-block2{
+    width: 800px;
+    position: relative;
+}
+
+.o-brende-second-block1-p{
+    display: block;
+    position: relative;
+    width: 80%;
+    font-size: 25px;
+    font-family:Jost;
+    color: #8A6D57;
+    font-weight: 300;
+}
+
+
+.o-brende-second-block2-p{
+    display: block;
+    position: relative;
+    width: 80%;
+    font-size: 25px;
+    font-family:Jost;
+    color: #8A6D57;
+    font-weight: 300;
+}
+
+.o-brende-third-block{
+    margin-top: 100px;
+    position: relative;
+}
+
+.o-brende-third-block img{
+    width: 100%;
+    position: relative;
+}
+
+.o-brende-text-flex1{
+    width: 28%;
+    height: fit-content;
+    top: 360px;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.o-brende-text-flex-p1{
+    display: block;
+    font-family: Vetrino;
+    font-size: 80px;
+    color: #8A6D57;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex-p2{
+    display: block;
+    font-family: Jost;
+    font-size: 25px;
+    color: #8A6D57;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.o-brende-text-flex-p3{
+    display: block;
+    font-family: Jost;
+    font-size: 25px;
+    color: #8A6D57;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex2{
+    width: 50%;
+    height: fit-content; 
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: auto;
+}
+
+.o-brende-text-flex2-p1{
+    display: block;
+    font-family: Vetrino;
+    font-size: 80px;
+    color: #8A6D57;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex2-p2{
+    display: block;
+    font-family: Jost;
+    font-size: 25px;
+    color: #8A6D57;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.o-brende-text-flex3{
+    width: 65%;
+    height: fit-content; 
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.o-brende-text-flex3-p1{
+    display: block;
+    font-family: Vetrino;
+    font-size: 80px;
+    color: #8A6D57;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex3-p2{
+    display: block;
+    font-family: Jost;
+    font-size: 25px;
+    color: #8A6D57;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.o-brende-fourth-block{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.o-brende-fourth-block-img{
+    height: fit-content;
+    width: 50%;
+    position: relative;
+    display: block;
+}
+
+.o-brende-fourth-block-flex{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    transform: translateX(-150px);
+}
+
+.o-brende-text-flex3-img{
+    width: 100% ;
+}
+
+
+.o-brende-text-flex4{
+    width: 30%;
+    height: fit-content;
+    top: 200px;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.o-brende-text-flex4-p1{
+    display: block;
+    font-family: Vetrino;
+    font-size: 70px;
+    color: #8A6D57;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex4-p2{
+    display: block;
+    font-family: Jost;
+    font-size: 20px;
+    color: #8A6D57;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.o-brende-text-flex4-p3{
+    display: block;
+    font-family: Jost;
+    font-size: 20px;
+    color: #8A6D57;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.o-brende-text-flex4-p4{
+    display: block;
+    font-family: Jost;
+    font-size: 20px;
+    color: #8A6D57;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+.o-brende-text-flex4-p5{
+    display: block;
+    font-family: Jost;
+    font-size: 20px;
+    color: #8A6D57;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+.eva-logo-flex4{
+    width: 60%;
+    padding-bottom: 70px;
+}
+
+.o-brende-fifth-block-img{
+    width: 100%;
+}
+
+.o-brende-fifth-block{
+    width: 100%;
+    position: relative;
+}

@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Jost; 
+  src: url('../fonts/Jost.ttf'); 
+}
+
+@font-face {
+  font-family: Vetrino; 
+  src: url('../fonts/ofont_Vetrino.ttf'); 
+}
+
+
+
+.product {
+    background-color: white;
+    position: relative;
+    padding: 70px 0;
+    height: fit-content;
+    padding-bottom: 130px;
+  }
+
+.product-flex{
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  
+  .element-animation {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+  }
+
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    width: 60%;
+    display: flex;
+    overflow-x: auto;
+overflow-y: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 370px;
+    height: fit-content;
+    margin-right: 20px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 354px;
+    height: 460px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    display: block;
+}
+  
+  .discount-tag {
+    border-radius: 20px;
+    position: absolute;
+    background: #FF3535;
+    padding: 5px;
+    color: #ffffff;
+    right: 10px;
+    top: 10px;
+    font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #fff;
+  }
+  
+  
+  .product-brand {
+    padding-top: 30px;
+    color:  #8A6D57;
+    font-family: Vetrino;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  
+  .product-short-description {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 0s linear 0.3s;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*margin-top: 10px;
+    height: fit-content;*/
+    width: 100%;
+    font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+color: #6E6E73;
+  }
+  
+
+  .dsp-block{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+    display: block;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*margin-top: 10px;
+    height: fit-content;*/
+    width: 100%;
+    font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+color: #6E6E73;
+  }
+
+  .product-short-description::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .price {
+    color:  #313131;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    text-transform: uppercase;
+  }
+  
+
+  
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    z-index: 8;
+  }
+
+  .nxt-btn{
+    margin-left: 40px;
+    &:hover{
+      transform: translateX(8px);
+      transition: all .5s;
+    }
+  }
+
+  .pre-btn{
+    margin-right: 40px;
+    &:hover{
+      transform: translateX(-8px);
+      transition: all .5s;
+    }
+  }
+  
+  .progress{
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 2px;
+    position: relative;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    transition: all .3s;
+    background-color: #8a6d57;
+  }
+  
+  .prog-bar-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 100%;
+    height: .5px;
+    background-color: #8a6d576c;
+  }
+
+  .arrow-buttons1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+  }
+  
+
+  .arrow-buttons-p{
+    color: #8A6D57;
+    font-size: 80px;
+    font-family: Vetrino;
+    text-transform: uppercase;
+  }
+
+
+  .button-podrobnee3-out{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%; 
+}
+
+.button-podrobnee3-out-p{
+  font-family: Jost;
+  font-size: 16px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: block;
+  height: fit-content;
+  width: 65%;
+  position: relative;
+}
+
+.button-podrobnee3{
+  margin: 0 auto;
+    width: 65%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+
+.button-podrobnee3:hover svg{
+    transform: translateX(-20px);
+    transition: all .3s;   
+}
+
+
+.button-podrobnee3 svg{
+    display: inline-block;
+}
+
+
+.button-podrobnee3 p{
+    margin-left: 20px;
+    display: inline-block;
+    color: #8A6D57;
+text-align: center;
+font-family: Jost;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+} 

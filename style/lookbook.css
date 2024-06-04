@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    .element-animation{
+        opacity: 0;
+        transform: translateY(100px);
+      }
+      
+      .element-animation.element-show {
+        opacity: 1;
+        transition: all 1s;
+        transform: translateY(0%);
+      }
+    
+    @font-face {
+        font-family: Jost; 
+        src: url('../fonts/Jost.ttf'); 
+    }
+    
+    @font-face {
+        font-family: Vetrino; 
+        src: url('../fonts/ofont_Vetrino.ttf'); 
+    }
+
+    
+    .lookbook-first-block{
+        margin-top: 100px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 86/100;
+    }
+
+
+    .lookbook-first-block-main-img{
+        width: 100%;
+    }
+
+    .lookbook-first-block-flex{
+        top: 15%;
+        left: 5%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lookbook-first-block-flex img{
+      width: 200px;  
+    }
+
+    .lookbook-first-block-flex-p1{
+        margin-top: 30px;
+        font-family: Vetrino;
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 4%;
+        line-height: auto;
+    }
+
+    .lookbook-first-block-flex-p2{
+        margin-top: 20px;
+        font-family: Jost;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .lookbook-second-block{
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: fit-content;
+        background-color: #F6F4F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lookbook-second-block-inner{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lookbook-second-block-inner-left{
+        width: 60%;
+        height: fit-content;
+    }
+
+    .lookbook-second-block-inner-left-img{
+        width: 100%;
+    }
+
+    .lookbook-second-block-inner-right{
+        width: 40%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lookbook-second-block-inner-right-absolute{
+        position: relative;
+        width: 70%;
+    }
+
+    .lookbook-second-block-inner-right-absolute-img{
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .lookbook-third-block{
+        width: 100%;
+        position: relative;
+        height: fit-content;
+    }
+
+    .lookbook-third-block-main-img{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+
+    .lookbook-third-block-flex{
+        top: 20%;
+        left: 5%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .lookbook-third-block-flex-p1{
+        margin-top: 30px;
+        font-family: Vetrino;
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 4%;
+        line-height: auto;
+    }
+
+    .lookbook-third-block-flex-p2{
+        margin-top: 20px;
+        font-family: Jost;
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .lookbook-fourth-block{
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 100px;
+        width: 100%;
+        position: relative;
+        height: fit-content;
+        padding-bottom: 200px;;
+        border-bottom: 2px solid #8A6D57;
+    }
+
+    .lookbook-fourth-block-img-right{
+        width: 60%;
+        position: relative;
+    }
+
+.lookbook-fourth-block-left{
+    width: 40%;
+    height: fit-content;
+    position: relative;
+    z-index: 2;
+}
+
+
+    .lookbook-fourth-block-img-left{
+        width: 70%;
+        position: relative;
+        transform: translateX(70%);
+        z-index: 2;
+    }
+
+    .lookbook-fifth-block{
+        width: 100%;
+        position: relative;
+        height: fit-content;
+    }

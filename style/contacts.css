@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Jost; 
+    src: url('../fonts/Jost.ttf'); 
+}
+
+@font-face {
+    font-family: Vetrino; 
+    src: url('../fonts/ofont_Vetrino.ttf'); 
+}
+
+
+.contacts-main{
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
+
+.contacts-flex{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.contacts-flex-img{
+    width: 60%;
+    margin-left: 70px;
+}
+
+.contacts-flex-p1{
+    display: block;
+    position: relative;
+    font-family: Vetrino;
+    font-size: 80px;
+    color: #8A6D57;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.contacts-flex-p2{
+    padding-top: 50px;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-family: Jost;
+    font-size: 18px;
+    color: #8A6D57;
+    font-weight: 500;
+}
+
+.contacts-flex-p3{
+    padding-top: 30px;
+    display: block;
+    position: relative;
+    font-family: Jost;
+    font-size: 30px;
+    color: #000000;
+}
+
+.contacts-flex-p4{
+    padding-top: 40px;
+    display: block;
+    position: relative;
+    font-family: Jost;
+    font-size: 18px;
+    color: #8A6D57;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contacts-flex-a{
+    text-transform: uppercase;
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    width: fit-content;
+}
